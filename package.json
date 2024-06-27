@@ -7,6 +7,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "node-gcm": "^1.0.2",
+    "postcss": "^8.1.0",
     "snyk": "^1.316.1"
   },
   "scripts": {
@@ -16,8 +17,8 @@
     "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
-    "autoprefixer": "^9.4.3",
-    "postcss-cli": "^6.1.0"
+    "autoprefixer": "^10.4.19",
+    "postcss-cli": "^11.0.0"
   },
   "engines": {
     "node": ">=8.11.2"
